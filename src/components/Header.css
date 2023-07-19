@@ -1,0 +1,36 @@
+.bg-body-tertiary {
+  font-size: 1.2rem;
+}
+.dropdown-menu {
+  width: 20vw !important;
+  padding-top: 1rem !important ;
+  transition: all ease 0.3s;
+}
+.navbar-nav {
+  transition: all ease 0.6s;
+}
+@media (max-width: 560px) {
+  .navbar-nav {
+    flex-direction: column !important;
+  }
+  .dropdown-menu {
+    width: 15vw !important;
+  }
+}
+.btn {
+  &:hover {
+    background-color: #e2e2e2 !important;
+  }
+}
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}

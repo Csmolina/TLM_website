@@ -1,0 +1,40 @@
+.mySwiper6.swiper {
+  width: 100%;
+
+  padding: 5rem;
+  border-radius: 10px;
+}
+
+#auditswiper .swiper-slide {
+  width: 40vw;
+  height: 40vh;
+  font-size: 2rem;
+  color: rgb(237, 237, 237);
+  padding: 3rem;
+}
+.swiper-slide:nth-child(1n) {
+  background-color: #33004b;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: #f5982d;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: #007e90;
+}
+.swiper-slide:nth-child(4n) {
+  background-color: #a50057;
+}
+@media (max-width: 560px) {
+  .mySwiper6.swiper {
+    width: 100%;
+    padding: 0;
+  }
+
+  #auditswiper .swiper-slide {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+  }
+}

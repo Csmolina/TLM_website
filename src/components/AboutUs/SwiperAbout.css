@@ -1,0 +1,28 @@
+.swiper.mySwiperAbout {
+  width: 30vw;
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-slide.mySwiperAboutSlide {
+  border: 0;
+  font-size: 18px;
+  background: #ffffff9a;
+
+  text-align: start;
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: 30% auto;
+  gap: 0;
+  margin: 0;
+}
+@media (max-width: 560px) {
+  .swiper.mySwiperAbout {
+    width: 100%;
+    height: 50vh;
+  }
+  .swiper-slide.mySwiperAboutSlide {
+    padding: 2rem;
+  }
+}

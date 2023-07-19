@@ -1,0 +1,14 @@
+.outer {
+  background-color: #1f1f1f;
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#chooseus .swiper-slide {
+  border: 0em solid black;
+  background-color: #1f1f1f;
+  padding: 0rem;
+  text-align: start;
+  padding: 3rem;
+  /* Center slide text vertically */
+}

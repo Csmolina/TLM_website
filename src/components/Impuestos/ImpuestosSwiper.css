@@ -1,0 +1,29 @@
+.swiper.mySwiperTax {
+    width: 30vw;
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper-slide.mySwiperTaxSlide {
+    border: 0;
+    font-size: 18px;
+    background: #e7e7e7;
+  
+    text-align: start;
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: 30% auto;
+    gap: 0;
+    margin: 0;
+  }
+  @media (max-width: 560px) {
+    .swiper.mySwiperTax {
+      width: 100%;
+      height: 50vh;
+    }
+    .swiper-slide.mySwiperTaxSlide {
+      padding: 2rem;
+    }
+  }
+  
