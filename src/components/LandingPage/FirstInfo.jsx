@@ -14,7 +14,7 @@ export function FirstInfo() {
               />
             </Player>
           </div>
-          <div className="col-lg-4" style={{ padding: "0" }}>
+          <div className="col-lg-4 col-sm-12" style={{ padding: "0" }}>
             <h1 className="display-3 fw-bold text-body-emphasis lh-1 mb-3">
               Expertos en Negocios y Finanzas
             </h1>
