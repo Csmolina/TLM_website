@@ -29,8 +29,8 @@ export function CarouselPage() {
         </Container>
 
         <Swiper
-          slidesPerView={3}
-          spaceBetween={30}
+          slidesPerView={1}
+          spaceBetween={20}
           style={{
             "--swiper-navigation-color": "#a7a7a7",
             "--swiper-pagination-color": "#310356",
@@ -44,15 +44,8 @@ export function CarouselPage() {
           }}
           navigation={true}
           breakpoints={{
-            440: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            640: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            768: {
+           
+            1000: {
               slidesPerView: 3,
               spaceBetween: 10,
             },
