@@ -22,8 +22,7 @@ export function ContabilidadFirst() {
 }
 const Container = styled.div`
   background-image: url(${AccountingImage});
-    padding-top: 5rem;
-  padding-bottom: 5rem;
+  
   background-repeat: no-repeat;
   background-size: cover;
   @media (max-width: 560px) {
@@ -31,7 +30,8 @@ const Container = styled.div`
   }
 `;
 const SecondContainer = styled.div`
-
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   color: #c5c5c5;
   .text-body-emphasis {
     color: white !important;
