@@ -22,6 +22,7 @@ export function ContabilidadFirst() {
 }
 const Container = styled.div`
   background-image: url(${AccountingImage});
+  
   background-repeat: no-repeat;
   background-size: cover;
   @media (max-width: 560px) {

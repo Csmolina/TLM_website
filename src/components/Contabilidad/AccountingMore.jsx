@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Icons from "../../assets/icons.png";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import Accounting from "../../assets/accountinganimation.json";
 export function AccountingMore() {
