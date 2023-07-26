@@ -63,12 +63,14 @@ const SubTitle = styled.h2`
   margin-bottom: 3rem;
   @media (max-width: 560px) {
     padding-left: 1rem;
+    font-size: 2rem;
   }
 `;
 const Text = styled.p`
   margin-bottom: 3rem;
   @media (max-width: 560px) {
     padding-left: 1rem;
+    font-size: 1rem;
   }
 `;
 const Back = styled.div`

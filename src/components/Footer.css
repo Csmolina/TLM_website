@@ -5,3 +5,8 @@ footer {
 .logo {
   margin-bottom: 4rem;
 }
+@media (max-width: 560px) {
+ footer {
+font-size: 1rem;
+ }
+}

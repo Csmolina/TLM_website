@@ -13,7 +13,7 @@ export function MapTLM() {
     <Container>
       <MapContainer
         center={[-0.18236, -78.478516]}
-        zoom={20}
+        zoom={15}
         scrollWheelZoom={false}
       >
         <TileLayer

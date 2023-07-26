@@ -1,28 +1,35 @@
 .swiper.mySwiperTax {
-    width: 30vw;
-    height: 40vh;
-
+  padding: 0;
+  margin: 0;
+  width: 100%;
+    display: grid;
+    grid-template-columns: 10vh 10vh auto;
   }
   
   .swiper-slide.mySwiperTaxSlide {
+    
+    
     border: 0;
-    font-size: 18px;
     background: #e7e7e7;
-  
     text-align: start;
-    padding: 1rem;
+    padding: 2rem 1rem 2rem 1rem;
     display: grid;
     grid-template-rows: 30% auto;
     gap: 0;
     margin: 0;
   }
+  @media (max-width: 1600px) {
+    .swiper.mySwiperTax {
+      width: 40vw;
+      height: 100%;
+    }
+  }
   @media (max-width: 560px) {
     .swiper.mySwiperTax {
       width: 100%;
-      height: 50vh;
+      height: 100%;
     }
     .swiper-slide.mySwiperTaxSlide {
       padding: 2rem;
     }
   }
-  

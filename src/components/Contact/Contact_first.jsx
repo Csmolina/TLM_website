@@ -7,15 +7,15 @@ export function Contact_first() {
     <Container>
       <Fade>
         {" "}
-        <SecondContainer className="container col-xxl-8 px-4 py-5">
+        <SecondContainer className="container col-xxl-8  px-4 py-5">
           <div
-            className="row flex-lg-row align-items-center g-5 py-5"
+            className="row flex-lg-row  align-items-center g-5 py-5"
           >
-            <div className="col-lg-6 align-items-center">
+            <div className="col-lg-6   align-items-center">
               <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
                 Contáctenos
               </h1>
-              <p className="lead">
+              <p className="lead" >
                 Póngase en contacto con nosotros para obtener una cotización o
                 más información, y vea lo fácil que es comenzar a disfrutar de
                 todos los beneficios que TLM Royal puede ofrecer a su empresa.
@@ -69,6 +69,10 @@ export function Contact_first() {
   );
 }
 const WpBtn = styled.button`
+@media (max-width: 560px) {
+   width: 100%;
+
+  }
   background-color: #25d366;
   color: white;
   outline: none;
@@ -98,6 +102,10 @@ const WpBtn = styled.button`
   --bs-btn-active-bg: #552071;
 `;
 const MailBtn = styled.button`
+@media (max-width: 560px) {
+   width: 100%;
+
+  }
   color: white;
   background-color: #2825d3;
   outline: none;
@@ -138,11 +146,24 @@ const SecondContainer = styled.div`
   color: #c5c5c5;
   .text-body-emphasis {
     color: white !important;
-    font-size: 3.5rem;
+    font-size: 3rem;
+  }
+  @media (max-width: 560px) {
+    h1{
+      font-size: 2rem !important;
+    }
+    p{
+      font-size: 1rem;
+    }
+
   }
 `;
 const Fade = styled.div`
-
+padding: 5rem 0 5rem 0;
   background-color: #00000087;
   z-index: 1;
+  @media (max-width: 560px) {
+   padding: 0;
+
+  }
 `;

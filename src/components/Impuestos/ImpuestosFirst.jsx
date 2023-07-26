@@ -9,7 +9,7 @@ export function ImpuestoFirst() {
         <TextContainer className="col-lg-12 align-items-center">
           <h1>Expertos en Impuestos Personales y Empresariales</h1>
           <p className="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et convallis mauris. Suspendisse aliquet at mauris sit amet consequat. Nam semper, massa at euismod dignissim, erat odio semper metus, eu efficitur orci eros ac risus. In blandit tortor id ligula aliquam scelerisque.
+          En TLM Royal, contamos con expertos en impuestos personales y empresariales que brindan soluciones personalizadas para maximizar deducciones, minimizar obligaciones fiscales y asegurar el cumplimiento normativo. Confía en nuestro equipo para una gestión financiera y fiscal efectiva y enfócate en el crecimiento personal o empresarial.
           </p>
         </TextContainer>
       </SecondContainer>
@@ -35,9 +35,9 @@ const SecondContainer = styled.div`
 `;
 const TextContainer = styled.div`
   background-color: #000000a6;
-
   p {
-    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
   }
   h1 {
     color: white;
@@ -46,13 +46,13 @@ const TextContainer = styled.div`
   padding: 10rem;
   border-radius: 10px;
   @media (max-width: 560px) {
-    padding: 4rem;
+    padding: 2rem;
     h1 {
       font-size: 2rem;
     }
     p {
       width: 100%;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 `;

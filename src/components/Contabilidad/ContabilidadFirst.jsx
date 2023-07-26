@@ -42,7 +42,8 @@ const TextContainer = styled.div`
   background-color: #000000a6;
 
   p {
-    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
   }
   h1 {
     color: white;
@@ -51,13 +52,13 @@ const TextContainer = styled.div`
   padding: 10rem;
   border-radius: 10px;
   @media (max-width: 560px) {
-    padding: 4rem;
+    padding: 2rem;
     h1 {
       font-size: 2rem;
     }
     p {
       width: 100%;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 `;

@@ -34,11 +34,26 @@ const Container = styled.div`
   gap: 3rem;
   @media (max-width: 560px) {
     flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 `;
-const TextContainer = styled.div``;
+const TextContainer = styled.div`
+@media (max-width: 560px) {
+
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      width: 100%;
+      font-size: 1rem;
+    }
+  }
+`;
 const Title = styled.h2`
   margin-bottom: 2rem;
   font-weight: 600;
 `;
-const Text = styled.p``;
+const Text = styled.p`
+
+`;

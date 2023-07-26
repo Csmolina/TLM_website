@@ -4,9 +4,9 @@ import AnimationAccounting from "../../assets/73985-colleagues-working-together.
 export function FirstInfo() {
   return (
     <Container>
-      <div className="container col-xxl-8 px-4 py-5">
+      <div className="container col-xxl-8 col-sm-12 px-4 py-5">
         <div className="row flex-xl-row-reverse g-5 py-5">
-          <div className=" col-sm-12 col-lg-8" style={{ padding: "0" }}>
+          <div className=" col-sm-12 col-lg-8" >
             <Player autoplay loop src={AnimationAccounting}>
               <Controls
                 visible={false}
@@ -14,8 +14,8 @@ export function FirstInfo() {
               />
             </Player>
           </div>
-          <div className="col-lg-4 col-sm-12" style={{ padding: "0" }}>
-            <h1 className="display-3 fw-bold text-body-emphasis lh-1 mb-3">
+          <div className="col-lg-4 col-sm-12" >
+            <h1 className="display-3 fw-bold  col-sm-12 text-body-emphasis lh-1 mb-3" style={{fontSize:"3.5rem"}}>
               Expertos en Negocios y Finanzas
             </h1>
             <p className="lead" style={{ padding: "0", marginTop: "1.5rem" }}>
@@ -36,7 +36,9 @@ export function FirstInfo() {
     </Container>
   );
 }
-const Container = styled.div``;
+const Container = styled.div`
+ 
+`;
 const BtnConocer = styled.button`
   background-color: #33004b;
   outline: none;

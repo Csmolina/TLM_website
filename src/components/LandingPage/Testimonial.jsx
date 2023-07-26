@@ -7,8 +7,8 @@ export function Testimonial() {
         <InnerContainer className='container col-xxl-8 px-4 py-5" '>
           <div class="container py-5">
             <div class="row d-flex justify-content-center">
-              <div class="col-md-10 col-xl-8 text-center">
-                <h1 class="fw-bold mb-4" style={{ fontSize: "3.5em" }}>
+              <div class="col-md-10 col-xl-8  col-sm-12 text-center">
+                <h1 class="fw-bold mb-4" style={{ fontSize: "3em" }}>
                   Testimonials
                 </h1>
                 <p class="mb-4 pb-2 mb-md-5 pb-md-0">

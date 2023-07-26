@@ -49,11 +49,15 @@ const ContainerText = styled.div``;
 const Title = styled.h1`
   font-size: 3.5rem;
   margin-bottom: 2rem;
+  @media (max-width: 560px) {
+   font-size: 2rem;
+  }
 `;
 const SubTitle = styled.h4`
   text-align: end;
   @media (max-width: 560px) {
     text-align: start;
+    font-size: 1rem;
   }
 `;
 const CardContainer = styled.div`
@@ -63,6 +67,7 @@ const CardContainer = styled.div`
   justify-content: space-between;
   gap: 1.5rem;
   @media (max-width: 560px) {
+    margin-top: 1rem;
     flex-direction: column;
     align-items: center;
   }
@@ -86,10 +91,21 @@ const Card = styled.div`
   transition: all 0.2s ease;
 
   @media (max-width: 560px) {
-    margin-top: 4rem;
+    margin-top: 1rem;
     height: 60vh;
     width: 100%;
+    &:hover {
+    transform: scale(1);
   }
+
+
+  }
+  @media (max-width: 1600px) {
+    grid-template-rows: 20% auto;
+    padding: 2rem 2rem 2rem 2rem;
+  
+}
+
 `;
 const CardTitle = styled.h2`
   text-align: start;
@@ -98,7 +114,11 @@ const CardTitle = styled.h2`
   height: auto;
   display: flex;
   align-items: center;
+  font-size: 2rem;
 `;
 const CardText = styled.p`
   font-size: 1.25rem;
+  @media (max-width: 560px) {
+   font-size: 1rem;
+  }
 `;

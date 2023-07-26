@@ -9,7 +9,9 @@ export function ConsultoriaFirst() {
         <TextContainer className="col-lg-12 align-items-center">
           <h1>Servicios de Consultoría </h1>
           <p className="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et convallis mauris. Suspendisse aliquet at mauris sit amet consequat. Nam semper, massa at euismod dignissim, erat odio semper metus, eu efficitur orci eros ac risus. In blandit tortor id ligula aliquam scelerisque.
+          En TLM Royal, ofrecemos servicios de consultoría personalizados para satisfacer tus necesidades específicas. Nuestro equipo de consultores altamente capacitados está listo para brindarte soluciones estratégicas y prácticas. <br />
+          Ya sea que necesites asesoramiento en gestión, planificación estratégica, optimización de procesos o cualquier otro aspecto empresarial, estamos aquí para ayudarte. Nuestra consultoría te permitirá tomar decisiones informadas y alcanzar tus objetivos con éxito. 
+
           </p>
         </TextContainer>
       </SecondContainer>
@@ -37,7 +39,8 @@ const TextContainer = styled.div`
   background-color: #000000a6;
 
   p {
-    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
   }
   h1 {
     color: white;
@@ -46,13 +49,13 @@ const TextContainer = styled.div`
   padding: 10rem;
   border-radius: 10px;
   @media (max-width: 560px) {
-    padding: 4rem;
+    padding: 2rem;
     h1 {
       font-size: 2rem;
     }
     p {
       width: 100%;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 `;

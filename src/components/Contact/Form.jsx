@@ -115,6 +115,16 @@ const SubContainer = styled.div`
   padding-top: 10rem;
   padding-bottom: 10rem;
   color: white;
+  @media (max-width: 560px) {
+    padding-top:5rem;
+    padding-bottom: 5rem;
+   h1{
+    font-size: 2rem;
+   }
+   p{
+    font-size: 1rem;
+   }
+  }
 `;
 const InputForms = styled.input`
   border: none;
@@ -122,6 +132,10 @@ const InputForms = styled.input`
   font-size: 1.3rem;
   padding: 1.5rem;
   height: 4vh;
+  @media (max-width: 560px) {
+   font-size: 1rem;
+
+  }
 `;
 const NameContainer = styled.div`
   display: flex;
@@ -171,6 +185,10 @@ const BtnSend = styled.input`
     transition: all 0.2s ease;
   }
   --bs-btn-active-bg: #552071;
+  @media (max-width: 560px) {
+   font-size: 1rem;
+
+  }
 `;
 const AreaText = styled.textarea`
   border: 0;

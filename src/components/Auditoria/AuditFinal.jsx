@@ -37,6 +37,17 @@ const Container = styled.div`
 const SubContainer = styled.div`
   padding-top: 10rem;
   padding-bottom: 10rem;
+  @media (max-width: 560px) {
+
+    h1 {
+  font-size: 2rem;
+}
+p {
+  width: 100%;
+  font-size: 1rem;
+}
+  }
+  
 `;
 const Fade = styled.div`
   background-color: #000000bc;
@@ -57,5 +68,6 @@ const Text = styled.p`
   font-size: 1.3rem;
   @media (max-width: 560px) {
     width: 100%;
+    margin-bottom: 1rem;
   }
 `;

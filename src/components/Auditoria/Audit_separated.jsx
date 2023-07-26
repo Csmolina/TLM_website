@@ -28,19 +28,25 @@ const Container = styled.div`
 const SubContainer = styled.div`
   display: grid;
   grid-template-columns: 30% 1% auto;
-  padding-top: 1rem;
   @media (max-width: 560px) {
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
     padding-bottom: 1rem;
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      width: 100%;
+      font-size: 1rem;
+    }
   }
 `;
 const Title = styled.h1`
   padding: 10rem 0 10rem 0;
   display: flex;
   align-items: center;
-  font-weight: 600;
+
 
   @media (max-width: 560px) {
     padding: 3rem 0 0 0;

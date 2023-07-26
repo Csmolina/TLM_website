@@ -67,6 +67,14 @@ const Container = styled.div`
 const ContainerTexto = styled.div`
   display: grid;
   align-content: center;
+  @media (max-width: 64em) {
+   width:100%;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  }
 `;
 const Titulo = styled.h1`
   height: fit-content;

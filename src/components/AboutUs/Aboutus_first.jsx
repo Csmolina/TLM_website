@@ -15,7 +15,7 @@ export function Aboutus_first() {
               <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
                 Celebrando Nuestras Raíces
               </h1>
-              <p className="lead">
+              <p className="lead" style={{}}>
                 TLM Royal tiene sus raíces con más de 16 años de experiencia. Le
                 invitamos a ser parte de nuestra historia de éxito. <br />{" "}
                 <br /> Nuestra fuerza proviene de nuestros profesionales. Le
@@ -36,17 +36,32 @@ const Container = styled.div`
  
   @media (max-width: 560px) {
     background-image: url(${AboutImageMobile});
+ 
   }
 `;
 const SecondContainer = styled.div`
   color: #c5c5c5;
   .text-body-emphasis {
     color: white !important;
-    font-size: 3.5rem;
+    font-size: 3.5rem !important;
+  }
+  @media (max-width: 560px) {
+    .text-body-emphasis {
+    color: white !important;
+    font-size: 2rem !important;
+  }
+  .lead{
+    font-size: 1rem;
+  }
+
   }
 `;
 const Fade = styled.div`
+padding: 5rem 0 5rem 0;
   width: 100%;
   background-color: #00000087;
   z-index: 1;
+  @media (max-width: 560px) {
+    padding: 0;
+  }
 `;

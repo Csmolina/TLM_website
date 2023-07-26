@@ -1,16 +1,15 @@
 .swiper.mySwiperAbout {
-  width: 30vw;
-  height: 40vh;
-}
-.flqbmU {
-  font-size: 1.2rem !important;
+  width: 100%;
+  display: grid !important;
+  grid-template-columns: 10vh 10vh auto;
+ 
 }
 .swiper-slide.mySwiperAboutSlide {
   
   border: 0;
   background: #ffffff9a;
   text-align: start;
-  padding: 1rem;
+  padding: 2rem 1rem 2rem 1rem;
   display: grid;
   grid-template-rows: 30% auto;
   gap: 0;
@@ -19,9 +18,17 @@
 @media (max-width: 560px) {
   .swiper.mySwiperAbout {
     width: 100%;
-    height: 50vh;
+    height: 100%;
   }
   .swiper-slide.mySwiperAboutSlide {
     padding: 2rem;
   }
+  
+}
+@media (max-width: 1600px) and (min-width:1000px) {
+  .swiper.mySwiperAbout {
+    width: 40vw;
+  }
+ 
+  
 }

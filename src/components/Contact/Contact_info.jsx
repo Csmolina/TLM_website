@@ -72,11 +72,13 @@ const Container = styled.div`
 const SecondContainer = styled.div`
   padding-top: 5rem;
   padding-bottom: 5rem;
+  @media (max-width: 560px) {
+   padding: 2rem 0 2rem 0;
+  }
 `;
 const DataContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 2rem;
   @media (max-width: 560px) {
     grid-template-columns: 100%;
   }
@@ -90,6 +92,7 @@ const Data = styled.div`
 
   @media (max-width: 560px) {
     padding-top: 2rem;
+    font-size: 1rem;
   }
 `;
 const Icon = styled.div`
@@ -102,4 +105,8 @@ const Icon = styled.div`
 `;
 const Text = styled.p`
   margin-top: 2rem;
+  @media (max-width: 560px) {
+   font-size: 1rem;
+
+  }
 `;

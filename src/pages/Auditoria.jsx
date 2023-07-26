@@ -11,8 +11,8 @@ export function Auditoria() {
       <ChooseAudit />
       <Audit_separated
         title="Auditoría externa"
-        firsttext="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl urna, ultricies eget elementum quis, tempor vel odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi efficitur justo eget turpis faucibus consectetur. Ut auctor dui sit amet elementum bibendum."
-        secondtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl urna, ultricies eget elementum quis, tempor vel odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi efficitur justo eget turpis faucibus consectetur. Ut auctor dui sit amet elementum bibendum."
+        firsttext="Nuestros profesionales, conocidos como auditores externos, son expertos en contabilidad, finanzas y aspectos legales relevantes. Nuestros auditores revisan minuciosamente los registros contables, transacciones financieras, políticas y procedimientos internos para asegurarse de que se adhieran a las normas contables y regulatorias aplicables."
+        secondtext="La auditoría externa es un proceso esencial para proporcionar confianza a inversores, accionistas, prestamistas y otras partes interesadas sobre la precisión y veracidad de la información financiera y operativa de una organización. Es un componente crucial para el buen gobierno corporativo y el mantenimiento de la transparencia en el ámbito empresarial."
         background="#1F1F1F"
         color="#d1d1d1"
         colortitle="#f8f8f8"

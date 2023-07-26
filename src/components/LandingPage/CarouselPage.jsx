@@ -126,6 +126,9 @@ const TextContainer = styled.div`
 const Title = styled.h1`
   text-align: start;
   font-size: 3.5rem;
+  @media (max-width:560px) {
+    text-align: center;
+  }
 `;
 const SubTitle = styled.h1`
   text-align: start;

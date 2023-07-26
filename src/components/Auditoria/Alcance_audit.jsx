@@ -36,9 +36,21 @@ const Container = styled.div`
   @media (max-width: 560px) {
     flex-direction: column;
     padding-top: 5rem;
+    margin-bottom: 5rem;
+    
   }
 `;
-const TextContainer = styled.div``;
+const TextContainer = styled.div`
+@media (max-width: 560px) {
+   
+    h1 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+}
+  }
+`;
 
 const Text = styled.p``;
 const SectionTitle = styled.h1`

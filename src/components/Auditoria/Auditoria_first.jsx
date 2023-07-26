@@ -8,11 +8,7 @@ export function Auditoria_first() {
         <TextContainer className="col-lg-12 align-items-center">
           <h1>Auditoría y Aseguramiento</h1>
           <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            nisl urna, ultricies eget elementum quis, tempor vel odio. Orci
-            varius natoque penatibus et magnis dis parturient montes, nascetur
-            ridiculus mus. Morbi efficitur justo eget turpis faucibus
-            consectetur. Ut auctor dui sit amet elementum bibendum.
+          La auditoría se enfoca en la revisión y evaluación de la información y procesos para determinar su exactitud y cumplimiento con normas. Es la evaluación independiente y objetiva para brindar confianza sobre la calidad y cumplimiento de ciertos aspectos. La auditoría y el aseguramiento son importantes para garantizar la integridad y fiabilidad de la información financiera.
           </p>
         </TextContainer>
       </SecondContainer>
@@ -40,7 +36,9 @@ const TextContainer = styled.div`
   background-color: #000000a6;
 
   p {
-    font-size: 1.5rem;
+   margin-top: 2rem;
+    font-size: 1.3rem;
+  
   }
   h1 {
     color: white;
@@ -49,12 +47,12 @@ const TextContainer = styled.div`
   padding: 10rem;
   border-radius: 10px;
   @media (max-width: 560px) {
-    padding: 4rem;
+    padding: 2rem;
     h1 {
       font-size: 2rem;
     }
     p {
-      font-size: 1.2rem;
+      font-size: 1rem;
       width: 100%;
     }
   }

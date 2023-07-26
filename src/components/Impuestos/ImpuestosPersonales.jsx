@@ -54,20 +54,12 @@ export function ImpuestosPersonales() {
           </Player>
           </ImgSectionSecond>
           <Section>
-            <SubTitle>Subheadline</SubTitle>
+            <SubTitle>Planificación tributaria</SubTitle>
             <Text>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et
-              convallis mauris. Suspendisse aliquet at mauris sit amet
-              consequat. Nam semper, massa at euismod dignissim, erat odio
-              semper metus, eu efficitur orci eros ac risus. In blandit tortor
-              id ligula aliquam scelerisque.
+            La planificación tributaria es una estrategia financiera legal y ética que las personas utilizan para minimizar su carga impositiva. 
             </Text>
             <Text>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et
-              convallis mauris. Suspendisse aliquet at mauris sit amet
-              consequat. Nam semper, massa at euismod dignissim, erat odio
-              semper metus, eu efficitur orci eros ac risus. In blandit tortor
-              id ligula aliquam scelerisque.
+            Consiste en identificar oportunidades y utilizar tácticas fiscales permitidas por las leyes para reducir los impuestos pagados. 
             </Text>
           </Section>
         </GridSecond>
@@ -79,6 +71,10 @@ const Container = styled.div``;
 const Title = styled.h1`
   margin: 5rem 0 1rem 0;
   font-weight: 800;
+  @media (max-width: 560px) {
+font-size: 2rem;
+
+  }
 `;
 const SubContainer = styled.div`
 margin-top: 3rem;
@@ -94,7 +90,12 @@ margin-top: 3rem;
 const SubTitle = styled.h2`
 margin-bottom: 1rem;
 `;
-const Text = styled.p``;
+const Text = styled.p`
+ @media (max-width: 560px) {
+font-size: 1rem;
+
+  }
+`;
 const Section = styled.div`
 margin-bottom: 3rem;
 `;

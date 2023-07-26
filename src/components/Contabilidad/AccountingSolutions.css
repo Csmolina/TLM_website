@@ -1,6 +1,7 @@
 .mySwipperAccounting.swiper {
   width: 100%;
-  height: 100%;
+  display: grid !important;
+  grid-template-columns: 10vh 10vh auto;
 }
 
 .mySwiperAccountingSlide.swiper-slide {

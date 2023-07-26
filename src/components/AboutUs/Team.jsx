@@ -91,11 +91,20 @@ const Container = styled.div`
 
   color: white;
   padding-bottom: 5rem;
+  @media (max-width: 560px) {
+   padding :0 ;
+  }
 `;
 const SecondContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  @media (max-width: 560px) {
+    h1{
+      font-size: 2rem !important;
+    }
+    
+  }
 `;
 const EmployeeCard = styled.div`
   display: grid;
@@ -112,9 +121,10 @@ const CardContainerEmp = styled.div`
   margin-bottom: 5rem;
   display: grid;
 
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   @media (max-width: 560px) {
     grid-template-columns: auto;
+    margin:3rem 0 0 0;
   }
   gap: 6rem;
 `;
@@ -122,16 +132,29 @@ const EmployeeImg = styled.img`
   width: 8vw;
   border-radius: 5px;
   @media (max-width: 560px) {
-    width: 40vw;
+    width: 100%;
   }
 `;
 const EmployeeDesc = styled.div``;
-const EmployeeTitle = styled.h4``;
+const EmployeeTitle = styled.h4`
+@media (max-width: 560px) {
+   font-size: 2rem;
+    
+  }
+`;
 const EmployeeRole = styled.h6`
   color: #c9c8c8;
+  @media (max-width: 560px) {
+   font-size: 1.3rem;
+    
+  }
 `;
 const EmployeeInfo = styled.h6`
   color: #cbcbcb;
+  @media (max-width: 560px) {
+   font-size: 1rem;
+    
+  }
 `;
 const Linkedin = styled.button`
   width: 1.2vw;
@@ -144,8 +167,8 @@ const Linkedin = styled.button`
   @media (max-width: 560px) {
     margin-top: 0.5rem;
     margin-bottom: 2rem;
-    width: 30px;
-    height: 30px;
+   width: 10vw;
+   height: 10vw;
     background-size: cover;
   }
 `;

@@ -38,7 +38,10 @@ font-weight: 700;
 text-align: center;
 margin:10rem 0 10rem 0;
 color: white;
-
+@media (max-width: 560px) {
+font-size: 2rem;
+margin: 0rem 0 5rem 0;
+  }
 `;
 const ConstContainer=styled.div`
 display: grid;
@@ -47,7 +50,8 @@ grid-template-columns: 1fr 1fr;
    display: flex;
    flex-direction: column;
    gap: 5rem;
-  
+  padding-left: 1rem;
+  padding-right: 1rem;
   }
 gap: 10rem;
 `;
@@ -68,7 +72,7 @@ box-shadow: 6px 6px 22px #0d0b0b, -6px -6px 22px #232323;
     box-shadow: none;
     transform: none;
   transition: none;
-   border-radius: 0;
+   padding : 5rem 2rem 5rem 2rem;
    &:hover {
      transform: scale(1);
      z-index: 1000;

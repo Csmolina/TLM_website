@@ -95,9 +95,6 @@ const Container = styled.div`
  background-color: #1f1f1f;
   background-repeat: no-repeat;
   background-size: cover;
-  @media (max-width: 560px) {
-    height: 100vh;
-  }
 `;
 const SubcontainerSwp = styled.div`
   display: grid;
@@ -115,14 +112,26 @@ const Stitlecontainer = styled.div`
   flex-direction: column;
   justify-content: center;
   color: white;
+  @media (max-width: 1600px) {
+    h1{
+      font-size: 2rem !important;
+    }
+    }
+  
 `;
 const NumberContainer = styled.div`
   font-size: 8rem;
   font-weight: 900;
+ 
 `;
-const TextSlideCont = styled.div``;
+const TextSlideCont = styled.div`
+
+`;
 const TitleSlide = styled.h2`
   font-weight: 600;
+  @media (max-width:1600px) {
+      font-size: 1.4rem;
+  }
 `;
 const TextSlide = styled.p`
   font-size: 1rem;

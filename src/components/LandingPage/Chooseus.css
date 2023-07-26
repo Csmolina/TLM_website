@@ -3,12 +3,22 @@
   color: white;
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
+ }
 #chooseus .swiper-slide {
   border: 0em solid black;
-  background-color: #1f1f1f;
+ background-color: transparent;
   padding: 0rem;
   text-align: start;
   padding: 3rem;
   /* Center slide text vertically */
+}
+@media (max-width: 64em) {
+  #chooseus .swiper-slide {
+   padding-top: 0;
+   text-align: center;
+   width: 100%;
+   margin:0;
+
+    /* Center slide text vertically */
+  }
 }

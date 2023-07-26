@@ -92,9 +92,6 @@ const Container = styled.div`
   background-image: url(${Back});
   background-repeat: no-repeat;
   background-size: cover;
-  @media (max-width: 560px) {
-    height: 100vh;
-  }
 `;
 const SubcontainerSwp = styled.div`
   display: grid;
@@ -111,9 +108,19 @@ const Stitlecontainer = styled.div`
   flex-direction: column;
   justify-content: center;
   color: white;
+  @media (max-width: 560px) {
+ h1{
+  font-size: 2rem !important;
+   
+ } 
+ p{
+  font-size: 1rem;
+ } 
+  }
+
 `;
 const NumberContainer = styled.div`
-  font-size: 5rem;
+  font-size: 8rem;
   padding-left: 0.5rem;
   font-weight: 900;
 `;
@@ -121,7 +128,7 @@ const TextSlideCont = styled.div`
 `;
 const TitleSlide = styled.h2`
   font-weight: 600;
-  font-size: 1.3rem;
+  
 `;
 const TextSlide = styled.p`
   font-size: 1rem;
@@ -132,7 +139,5 @@ height: 100%;
   width: 100%;
   background-color: #0000009c;
   z-index: 1;
-  @media (max-width: 560px) {
-    height: 100vh;
-  }
+ 
 `;
