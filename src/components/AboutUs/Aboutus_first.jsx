@@ -9,7 +9,7 @@ export function Aboutus_first() {
         <SecondContainer className="container col-xxl-8 px-4 py-5">
           <div
             className="row flex-lg-row align-items-center g-5 py-5"
-            style={{ height: "60vh" }}
+            
           >
             <div className="col-lg-6 align-items-center">
               <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
@@ -33,10 +33,9 @@ const Container = styled.div`
   background-image: url(${AboutImage});
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh;
+ 
   @media (max-width: 560px) {
     background-image: url(${AboutImageMobile});
-    height: 80vh;
   }
 `;
 const SecondContainer = styled.div`
@@ -48,11 +47,6 @@ const SecondContainer = styled.div`
 `;
 const Fade = styled.div`
   width: 100%;
-  height: 60vh;
-  position: absolute;
   background-color: #00000087;
   z-index: 1;
-  @media (max-width: 560px) {
-    height: 80vh;
-  }
 `;

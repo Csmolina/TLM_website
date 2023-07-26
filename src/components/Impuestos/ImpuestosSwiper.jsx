@@ -111,6 +111,7 @@ const SubcontainerSwp = styled.div`
 `;
 const Stitlecontainer = styled.div`
   display: flex;
+  
   flex-direction: column;
   justify-content: center;
   color: white;

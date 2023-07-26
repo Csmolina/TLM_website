@@ -185,24 +185,25 @@ const Text = styled.p`
 const SlideTitle = styled.h1`
   color: #f5982d;
 
-  width: 100%;
+ 
 `;
 const SlideNumber = styled.h1`
   font-size: 10rem;
-  width: 100%;
+
 
   color: #f4f4f4;
 `;
 const SlideText = styled.p`
   color: #d1cfcf;
-  height: 100%;
   padding: 0;
   margin: 0;
 `;
 const InnerSliderContainer = styled.div`
   margin-top: 2rem;
   display: grid;
-  grid-template-rows: 19vh 20vh 20vh;
+  padding-bottom: 2rem;
+  grid-template-rows: 10rem 10rem 10rem;
+  gap: 3rem;
   @media (max-width: 560px) {
     grid-template-rows: 19vh 20vh 15vh;
   }

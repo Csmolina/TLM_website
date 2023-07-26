@@ -113,12 +113,15 @@ const Stitlecontainer = styled.div`
   color: white;
 `;
 const NumberContainer = styled.div`
-  font-size: 8rem;
+  font-size: 5rem;
+  padding-left: 0.5rem;
   font-weight: 900;
 `;
-const TextSlideCont = styled.div``;
+const TextSlideCont = styled.div`
+`;
 const TitleSlide = styled.h2`
   font-weight: 600;
+  font-size: 1.3rem;
 `;
 const TextSlide = styled.p`
   font-size: 1rem;

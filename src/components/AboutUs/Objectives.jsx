@@ -61,17 +61,18 @@ const CardContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 1.5rem;
   @media (max-width: 560px) {
     flex-direction: column;
     align-items: center;
   }
 `;
 const Card = styled.div`
-  height: 40vh;
-  width: 35vh;
-  padding: 2rem;
+  width: 100%;
+
   display: grid;
   grid-template-rows: 40% auto;
+ padding: 3rem 3rem 6rem 3rem;
   box-shadow: 6px 6px 22px #afaeae, -6px -6px 22px #ffffff;
   border-radius: 10px;
   &:hover {
