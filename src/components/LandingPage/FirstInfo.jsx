@@ -6,7 +6,7 @@ export function FirstInfo() {
     <Container>
       <div className="container col-xxl-8 col-sm-12 px-4 py-5">
         <div className="row flex-xl-row-reverse g-5 py-5">
-          <div className=" col-sm-12 col-lg-8" >
+          <div className=" col-sm-12 col-lg-8">
             <Player autoplay loop src={AnimationAccounting}>
               <Controls
                 visible={false}
@@ -14,8 +14,11 @@ export function FirstInfo() {
               />
             </Player>
           </div>
-          <div className="col-lg-4 col-sm-12" >
-            <h1 className="display-3 fw-bold  col-sm-12 text-body-emphasis lh-1 mb-3" style={{fontSize:"3.5rem"}}>
+          <div className="col-lg-4 col-sm-12">
+            <h1
+              className="display-3 fw-bold  col-sm-12 text-body-emphasis lh-1 mb-3"
+              style={{ fontSize: "3.5rem" }}
+            >
               Expertos en Negocios y Finanzas
             </h1>
             <p className="lead" style={{ padding: "0", marginTop: "1.5rem" }}>
@@ -23,12 +26,14 @@ export function FirstInfo() {
               auditoría, impuestos & contabilidad con sede en Quito, Ecuador.
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <BtnConocer
-                type="button"
-                className="btn btn-primary btn-lg px-4 me-md-2 "
-              >
-                Conocer Más
-              </BtnConocer>
+              <a href="/Acerca">
+                <BtnConocer
+                  type="button"
+                  className="btn btn-primary btn-lg px-4 me-md-2 "
+                >
+                  Conocer Más
+                </BtnConocer>
+              </a>
             </div>
           </div>
         </div>
@@ -36,9 +41,7 @@ export function FirstInfo() {
     </Container>
   );
 }
-const Container = styled.div`
- 
-`;
+const Container = styled.div``;
 const BtnConocer = styled.button`
   background-color: #33004b;
   outline: none;

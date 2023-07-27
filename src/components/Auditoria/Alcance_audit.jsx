@@ -2,7 +2,7 @@ import styled from "styled-components";
 export function Alcance_audit() {
   return (
     <Container className="container">
-      <SectionTitle>Alcance de la Auditoría</SectionTitle>
+      <SectionTitle>Alcance de la Auditoría <hr /></SectionTitle>
       <TextContainer>
         <Text>
           El objetivo de nuestros servicios de auditoría es obtener una

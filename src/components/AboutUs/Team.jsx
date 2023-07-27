@@ -10,7 +10,7 @@ export function Team() {
     <Container>
       <SecondContainer className="container col-xxl-8 px-4 py-5">
         <h1 style={{ fontSize: "3.5rem", marginTop: "5rem" }}>
-          Nuestro Equipo
+          Nuestro Equipo <hr />
         </h1>
         <CardContainerEmp>
           <EmployeeCard>
@@ -97,8 +97,12 @@ const SecondContainer = styled.div`
   }
 `;
 const EmployeeCard = styled.div`
-  display: flex;
+   display: grid;
+
+grid-template-columns: 30% auto;
+margin-bottom: 4rem;
   @media (max-width: 560px) {
+    display: flex;
     flex-direction: column;
     border-bottom: 0.1rem solid #e2e1e211;
     gap: 2rem;
@@ -108,9 +112,7 @@ const EmployeeCard = styled.div`
 const CardContainerEmp = styled.div`
   margin-top: 10rem;
   margin-bottom: 5rem;
-  display: flex;
-
-  flex-direction: column;
+ 
   @media (max-width: 560px) {
     grid-template-columns: auto;
     margin:3rem 0 0 0;
@@ -118,10 +120,23 @@ const CardContainerEmp = styled.div`
   gap: 3rem;
 `;
 const EmployeeImg = styled.img`
-  width: 13vw;
+  width: 100%;
   border-radius: 10px;
+  object-fit: cover;
+  &:hover {
+    transform: scale(1.2);
+    z-index: 1000;
+    box-shadow: none;
+    transition: all 0.2s ease;
+  }
+
+  transform: scale(1);
+  transition: all 0.2s ease;
   @media (max-width: 560px) {
     width: 70%;
+    &:hover {
+    transform: scale(1);
+   }
   }
 `;
 const EmployeeDesc = styled.div``;
@@ -153,6 +168,15 @@ const Linkedin = styled.button`
   background-repeat: no-repeat;
   background-size: cover;
   border: 0;
+  &:hover {
+    transform: scale(1.2);
+    z-index: 1000;
+    box-shadow: none;
+    transition: all 0.2s ease;
+  }
+
+  transform: scale(1);
+  transition: all 0.2s ease;
   @media (max-width: 560px) {
     margin-top: 0.5rem;
     margin-bottom: 2rem;

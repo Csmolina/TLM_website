@@ -18,7 +18,7 @@ export function SwiperAbout() {
           <Stitlecontainer>
             <h1 style={{ fontSize: "3.5rem" }}>
               {" "}
-              "Una Mirada Fresca al Servicio"
+              "Una Mirada Fresca al Servicio" <hr />
             </h1>
             <p>Nuestra Filosofía</p>
           </Stitlecontainer>

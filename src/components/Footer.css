@@ -4,9 +4,29 @@ footer {
 }
 .logo {
   margin-bottom: 4rem;
+  &:hover {
+    transform: scale(1.2);
+    z-index: 1000;
+    box-shadow: none;
+    transition: all 0.2s ease;
+  }
+
+  transform: scale(1);
+  transition: all 0.2s ease;
 }
 @media (max-width: 560px) {
  footer {
 font-size: 1rem;
  }
+}
+.social {
+  &:hover {
+    transform: scale(1.2);
+    z-index: 1000;
+    box-shadow: none;
+    transition: all 0.2s ease;
+  }
+
+  transform: scale(1);
+  transition: all 0.2s ease;
 }

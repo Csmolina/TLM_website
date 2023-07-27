@@ -4,7 +4,7 @@ export function Objectives() {
     <Container>
       <SecondContainer className="container col-xxl-8 px-4 py-5">
         <ContainerText>
-          <Title>Objetivos Clave</Title>
+          <Title>Objetivos Clave <hr /></Title>
           <SubTitle>"Una Mirada Fresca al Servicio"</SubTitle>
         </ContainerText>
         <CardContainer>

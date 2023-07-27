@@ -62,27 +62,27 @@ export function Footer() {
               <li className="list-inline-item">
                 <a href="https://www.instagram.com/tlmroyal/" target="_blank">
                   {" "}
-                  <img src={instagram} alt="sdsd" height={"40px"} />
+                  <img src={instagram} alt="instagram" height={"40px"} className="social"/>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="https://www.facebook.com/TLMRoyal" target="_blank">
                   {" "}
-                  <img src={facebook} alt="sdsd" height={"40px"} />
+                  <img src={facebook} alt="facebook" height={"40px"}  className="social"/>
                 </a>
               </li>
               <li className="list-inline-item">
                 {" "}
                 <a href="https://twitter.com/TLMRoyal" target="_blank">
                   {" "}
-                  <img src={twitter} alt="sdsd" height={"40px"} />
+                  <img src={twitter} alt="twitter" height={"40px"} className="social"/>
                 </a>
               </li>
               <li className="list-inline-item">
                 {" "}
                 <a href="https://youtube.com/@tlmroyal4371" target="_blank">
                   {" "}
-                  <img src={youtube} alt="sdsd" height={"40px"} />
+                  <img src={youtube} alt="youtube" height={"40px"} className="social"/>
                 </a>
               </li>
               <li className="list-inline-item">
@@ -92,7 +92,7 @@ export function Footer() {
                   target="_blank"
                 >
                   {" "}
-                  <img src={linkedin} alt="sdsd" height={"40px"} />
+                  <img src={linkedin} alt="linkedin" height={"40px"} className="social"/>
                 </a>
               </li>
             </ul>
