@@ -1,5 +1,9 @@
 import styled from "styled-components";
 import Avatar from "../../assets/avatarfemale.png";
+import Stefy from "../../assets/stefy.jpg";
+import Sandra from "../../assets/sandra.jpg";
+import Samya from "../../assets/samya.jpg";
+import Katia from "../../assets/katia.jpeg";
 import Lkd from "../../assets/linkedin_blue.svg";
 export function Team() {
   return (
@@ -12,71 +16,57 @@ export function Team() {
           <EmployeeCard>
             <EmployeeImg src={Avatar}></EmployeeImg>
             <EmployeeDesc>
-              <EmployeeTitle>Daniel Ryan</EmployeeTitle>
-              <EmployeeRole>UI/UX Designer</EmployeeRole>
+              <EmployeeTitle>John Tindall BA (Hons) - Socio principal</EmployeeTitle>
+              <EmployeeRole>BA (Hons) - Universidad de Westminster</EmployeeRole>
+              <EmployeeRole>Contador  Público - Instituto de Contadores Públicos de Escocia </EmployeeRole>
               <EmployeeInfo>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                convallis
+              15 años de experiencia auditando empresas del sector médico, industrias de consumo básico, operadores de centros comerciales, inmobiliarios, y organizaciones sin fines de lucro. <br />Operaciones relacionadas dentro y fuera del país. <br />John es el encargado de identificar oportunidades de crecimiento y colaborar con el equipo para asegurar el éxito de la firma.
               </EmployeeInfo>
               <Linkedin></Linkedin>
             </EmployeeDesc>
           </EmployeeCard>
           <EmployeeCard>
-            <EmployeeImg src={Avatar}></EmployeeImg>
+            <EmployeeImg src={Katia}></EmployeeImg>
             <EmployeeDesc>
-              <EmployeeTitle>Daniel Ryan</EmployeeTitle>
-              <EmployeeRole>UI/UX Designer</EmployeeRole>
+              <EmployeeTitle>Katia Molina CPA, MBA – Gerente General</EmployeeTitle>
+              <EmployeeRole>Ingeniera en Contabilidad y Auditoría CPA - PUCE</EmployeeRole>
+              <EmployeeRole>MBA - Universidad  de Nebrija</EmployeeRole>
               <EmployeeInfo>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                convallis
+              Cuenta con más 10 años de experiencia auditando empresas mineras, manufactura de bienes esenciales, telecomunicaciones, empresas gubernamentales y organizaciones del sector financiero. <br /> Se encarga de la gestión y desarrollo del equipo de auditores, brindando capacitación, mentoría y oportunidades de crecimiento profesional. <br />Se encarga también de la revisión del sistema de control de calidad de auditoría de la firma.
               </EmployeeInfo>
               <Linkedin></Linkedin>
             </EmployeeDesc>
           </EmployeeCard>
           <EmployeeCard>
-            <EmployeeImg src={Avatar}></EmployeeImg>
+            <EmployeeImg src={Stefy}></EmployeeImg>
             <EmployeeDesc>
-              <EmployeeTitle>Daniel Ryan</EmployeeTitle>
-              <EmployeeRole>UI/UX Designer</EmployeeRole>
+              <EmployeeTitle>Stefany López CPA – Gerente de Impuestos</EmployeeTitle>
+              <EmployeeRole>Ingeniera en Contabilidad y Auditoria CPA - PUCE</EmployeeRole>
+              <EmployeeRole>Finanzas y política fiscal - Universidad de Corea</EmployeeRole>
               <EmployeeInfo>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                convallis
+              Cuenta con más de 8 años de experiencia en el área de impuestos. Es responsable de supervisar y dirigir todas las actividades relacionadas con los impuestos, tanto a nivel personal como empresarial. <br />También se encarga de mantenerse actualizada con los cambios en las leyes fiscales y proporcionar asesoramiento financiero en temas fiscales a los clientes de la firma.
               </EmployeeInfo>
               <Linkedin></Linkedin>
             </EmployeeDesc>
           </EmployeeCard>
           <EmployeeCard>
-            <EmployeeImg src={Avatar}></EmployeeImg>
+            <EmployeeImg src={Sandra}></EmployeeImg>
             <EmployeeDesc>
-              <EmployeeTitle>Daniel Ryan</EmployeeTitle>
-              <EmployeeRole>UI/UX Designer</EmployeeRole>
+              <EmployeeTitle>Sandra Morales CPA – Gerente de Auditoría</EmployeeTitle>
+              <EmployeeRole>Ingeniera en Contabilidad y Auditoria CPA – UCE</EmployeeRole>
               <EmployeeInfo>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                convallis
+              8 años de experiencia auditando empresas del sector médico, de servicios y de manufactura de bienes esenciales. <br />Es la encargada de liderar y supervisar el equipo de auditores de la firma. Su función principal es garantizar la ejecución eficiente y efectiva de las auditorías internas o externas. 
               </EmployeeInfo>
               <Linkedin></Linkedin>
             </EmployeeDesc>
           </EmployeeCard>
           <EmployeeCard>
-            <EmployeeImg src={Avatar}></EmployeeImg>
+            <EmployeeImg src={Samya}></EmployeeImg>
             <EmployeeDesc>
-              <EmployeeTitle>Daniel Ryan</EmployeeTitle>
-              <EmployeeRole>UI/UX Designer</EmployeeRole>
+              <EmployeeTitle>Samya Lozano CPA – Gerente de Outsourcing Contable</EmployeeTitle>
+              <EmployeeRole>Ingeniera en Contabilidad y Auditoria CPA – PUCE</EmployeeRole>
               <EmployeeInfo>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                convallis
-              </EmployeeInfo>
-              <Linkedin></Linkedin>
-            </EmployeeDesc>
-          </EmployeeCard>
-          <EmployeeCard>
-            <EmployeeImg src={Avatar}></EmployeeImg>
-            <EmployeeDesc>
-              <EmployeeTitle>Daniel Ryan</EmployeeTitle>
-              <EmployeeRole>UI/UX Designer</EmployeeRole>
-              <EmployeeInfo>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                convallis
+              Inició su carrera en el área de auditoría de TLM Royal, pasando posteriormente al área de outsourcing contable. Cuenta con más de 5 años de experiencia liderando la contabilidad de nuestros clientes. <br />Es responsable de establecer y mantener una comunicación efectiva con los clientes para entender sus necesidades contables y adaptar los servicios de acuerdo con sus requerimientos. <br />Además, se encarga de asegurar el cumplimiento de las normativas contables y fiscales aplicables, y de mantener una alta calidad en el servicio prestado.
               </EmployeeInfo>
               <Linkedin></Linkedin>
             </EmployeeDesc>
@@ -107,32 +97,31 @@ const SecondContainer = styled.div`
   }
 `;
 const EmployeeCard = styled.div`
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
   @media (max-width: 560px) {
-    grid-template-columns: auto;
+    flex-direction: column;
     border-bottom: 0.1rem solid #e2e1e211;
     gap: 2rem;
   }
-  gap: 1rem;
+  gap: 4rem;
 `;
 const CardContainerEmp = styled.div`
   margin-top: 10rem;
   margin-bottom: 5rem;
-  display: grid;
+  display: flex;
 
-  grid-template-columns: 1fr 1fr;
+  flex-direction: column;
   @media (max-width: 560px) {
     grid-template-columns: auto;
     margin:3rem 0 0 0;
   }
-  gap: 6rem;
+  gap: 3rem;
 `;
 const EmployeeImg = styled.img`
-  width: 8vw;
-  border-radius: 5px;
+  width: 13vw;
+  border-radius: 10px;
   @media (max-width: 560px) {
-    width: 100%;
+    width: 70%;
   }
 `;
 const EmployeeDesc = styled.div``;

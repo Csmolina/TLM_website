@@ -12,7 +12,7 @@ export function Aboutus_first() {
             
           >
             <div className="col-lg-6 align-items-center">
-              <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              <h1 className="display-5  text-body-emphasis lh-1 mb-3">
                 Celebrando Nuestras Raíces
               </h1>
               <p className="lead" style={{}}>

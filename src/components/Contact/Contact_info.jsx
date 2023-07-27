@@ -89,7 +89,7 @@ const Data = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-
+padding-bottom: 2rem;
   @media (max-width: 560px) {
     padding-top: 2rem;
     font-size: 1rem;

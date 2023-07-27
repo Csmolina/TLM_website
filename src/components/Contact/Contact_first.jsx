@@ -12,7 +12,7 @@ export function Contact_first() {
             className="row flex-lg-row  align-items-center g-5 py-5"
           >
             <div className="col-lg-6   align-items-center">
-              <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              <h1 className="display-5  text-body-emphasis lh-1 mb-3">
                 Contáctenos
               </h1>
               <p className="lead" >
@@ -146,7 +146,7 @@ const SecondContainer = styled.div`
   color: #c5c5c5;
   .text-body-emphasis {
     color: white !important;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   @media (max-width: 560px) {
     h1{
