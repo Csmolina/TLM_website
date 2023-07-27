@@ -56,4 +56,11 @@ const Text = styled.p``;
 const SectionTitle = styled.h1`
   width: 100%;
   font-weight: 700;
+  @media (min-width:560px)
+  {
+    hr{
+   display: none;
+  }
+  }
+  
 `;

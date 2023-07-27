@@ -34,3 +34,14 @@
     margin-top: 0;
   }
 }
+#logo{
+  &:hover {
+    transform: scale(0.9);
+    z-index: 1000;
+    box-shadow: none;
+    transition: all 0.2s ease;
+  }
+
+  transform: scale(1);
+  transition: all 0.2s ease;
+}

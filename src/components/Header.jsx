@@ -16,6 +16,7 @@ function Items() {
               height="70"
               className="d-inline-block align-top"
               alt="TLM Royal logo"
+              id="logo"
             />
           </Navbar.Brand>
           <Navbar.Toggle />
