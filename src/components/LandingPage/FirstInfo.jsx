@@ -15,9 +15,9 @@ export function FirstInfo() {
             </Player>
           </div>
           <div className="col-lg-4 col-sm-12">
-            <h1
+            <h1 id="title"
               className="display-3 fw-bold  col-sm-12 text-body-emphasis lh-1 mb-3"
-              style={{ fontSize: "3.5rem" }}
+              style={{ fontSize: "3rem" }}
             >
               Expertos en Negocios y Finanzas
             </h1>
@@ -41,8 +41,26 @@ export function FirstInfo() {
     </Container>
   );
 }
-const Container = styled.div``;
+const Container = styled.div`
+.lead{
+  @media (max-width: 560px) {
+   font-size: 1rem;
+
+  }
+}
+#title{
+
+  @media (max-width: 560px) {
+   font-size: 2rem !important;
+
+  }
+}
+`;
 const BtnConocer = styled.button`
+@media (max-width: 560px) {
+   width: 100%;
+font-size: 1rem;
+  }
   background-color: #33004b;
   outline: none;
   margin-top: 2rem;

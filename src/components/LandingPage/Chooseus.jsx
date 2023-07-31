@@ -5,23 +5,27 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import AnimationWhy from "../../assets/Animation - 1689116219780.json";
-import { Pagination, Navigation } from "swiper/modules";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import "./Chooseus.css";
 export function Chooseus() {
   return (
     <div className="outer">
       <Container className="container ">
         <ContainerTexto>
-          <Titulo>¿Por qué elegirnos?</Titulo>
+          <Titulo>¿Por qué elegirnos? </Titulo>
           <Carousel id="chooseus">
             {" "}
             <Swiper
-              navigation={true}
-              modules={[Pagination, Navigation]}
+              navigation={false}
+              pagination={true}
+              modules={[Pagination,Autoplay]}
               className="mySwiper"
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
               style={{
-                "--swiper-navigation-color": "#e6e6e6",
-                "--swiper-pagination-color": "#e6e6e6",
+                "--swiper-pagination-color": "#ffffff",
               }}
             >
               <SwiperSlide>
@@ -79,25 +83,26 @@ const ContainerTexto = styled.div`
 const Titulo = styled.h1`
   height: fit-content;
   margin: 0;
-  padding-left: 3rem;
-  font-size: 3.5rem;
-  margin-bottom: 8rem;
-  @media (max-width: 370px) {
+
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  @media (max-width: 64em) {
     padding: 0;
-    margin-bottom: 0;
-    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+
   }
 `;
 const Carousel = styled.div`
-  width: 35vw;
+  width: 50vh;
 
   margin: 0;
-  @media (max-width: 560px) {
-    width: 85vw;
+  @media (max-width: 64em) {
+    width: 90vw;
   }
 `;
 const ContainerImages = styled.div`
-  @media (max-width: 560px) {
+  @media (max-width: 64em) {
     padding: 0;
   }
   padding: 5rem;

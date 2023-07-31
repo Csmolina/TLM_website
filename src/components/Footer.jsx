@@ -23,13 +23,13 @@ export function Footer() {
             />
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              dapibus fermentum felis, ac eleifend odio vestibulum nec.
+            Nuestro equipo de profesionales comprometidos está listo para ayudarte con soluciones personalizadas que garantizarán el cumplimiento y la transparencia en tus operaciones. 
+
             </p>
           </div>
           <div className="col-md-1">
             <h5></h5>
-            <ul className="list-unstyled">
+            <ul className="list-unstyled esconder">
               <li>Teléfono:</li>
               <li>
                 <a
@@ -45,16 +45,17 @@ export function Footer() {
           <div className="col-md-2">
             <h5></h5>
             <ul className="list-unstyled">
-              <li>00000000</li>
+              <li>023330529</li>
+              <li></li>
               <li>
                 <a
                   href="mailto:tlmroyal@tlmroyal.com"
                   className="link-light text-decoration-none"
                 >
-                  tlmroyal@tlmroyal.com
+                  info@tlmroyal.com
                 </a>
               </li>
-              <li>123 W 4 St, New York, NY 12345</li>
+              <li>Av. 6 de diciembre E10-20 y Portugal</li>
             </ul>
           </div>
           <div className="col-md-3">
@@ -98,8 +99,8 @@ export function Footer() {
             </ul>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              convallis pellentesque metus id lacinia.
+            
+Confía en nuestra experiencia y precisión para brindarte servicios que impulsarán la salud financiera de tu empresa.
             </p>
           </div>
         </div>

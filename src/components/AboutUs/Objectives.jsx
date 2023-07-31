@@ -10,22 +10,22 @@ export function Objectives() {
         <CardContainer>
           <Card style={{ backgroundColor: "#33004B" }}>
             <CardTitle style={{ color: "#ebebeb" }}>Comunicación</CardTitle>
-            <CardText style={{ color: "#c1c0c0" }}>
+            <CardText style={{ color: "#c1c0c0" }}><hr />
               Continua, accesible, comprensible durante todo el año, para
               obtener asesoramiento, una segunda opinión o una solución para un
               problema particular.
             </CardText>
           </Card>
           <Card style={{ backgroundColor: "#f5982d" }}>
-            <CardTitle>Soluciones</CardTitle>
-            <CardText>
+            <CardTitle>Soluciones</CardTitle> 
+            <CardText><hr />
               Consejos y recomendaciones relevantes, prácticos y oportunos para
               ayudar a mejorar su negocio.
             </CardText>
           </Card>
           <Card style={{ backgroundColor: "#007e90" }}>
             <CardTitle style={{ color: "#ebebeb" }}>Su negocio</CardTitle>
-            <CardText style={{ color: "#c1c0c0" }}>
+            <CardText style={{ color: "#c1c0c0" }}><hr />
               Estamos dedicados a comprender sus operaciones, sus objetivos, sus
               riesgos y su desempeño. Para darle un servicio individual,
               relevante y dirigido.
@@ -47,10 +47,15 @@ const SecondContainer = styled.div`
 `;
 const ContainerText = styled.div``;
 const Title = styled.h1`
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
-  @media (max-width: 560px) {
+  @media (max-width: 64em) {
    font-size: 2rem;
+  }
+  @media (min-width: 65em) {
+   hr{
+    display: none;
+   }
   }
 `;
 const SubTitle = styled.h4`
@@ -76,7 +81,7 @@ const Card = styled.div`
   width: 100%;
 
   display: grid;
-  grid-template-rows: 40% auto;
+  grid-template-rows: 20% auto;
  padding: 3rem 3rem 6rem 3rem;
   box-shadow: 6px 6px 22px #afaeae, -6px -6px 22px #ffffff;
   border-radius: 10px;

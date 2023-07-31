@@ -6,7 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer } from "./components/Footer";
 import { Hamburguer } from "./components/Hamburguer";
 import { ScrollToTop } from "./components/ScrollToTop";
-
 function App() {
   return (
     <>

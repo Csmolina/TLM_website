@@ -22,9 +22,7 @@ export function CarouselPage() {
         <Container>
           <Title>Servicios</Title>
           <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            convallis pellentesque metus id lacinia. Nunc dapibus pulvinar
-            auctor. Duis nec sem at orci commodo viverra id
+          Excelencia en auditoría y contabilidad: tu socio de confianza para el éxito financiero de tu negocio. Servicios profesionales ajustados a tus necesidades.
           </Paragraph>
         </Container>
 
@@ -42,7 +40,7 @@ export function CarouselPage() {
           pagination={{
             clickable: true,
           }}
-          navigation={true}
+         
           breakpoints={{
            
             1000: {
@@ -58,8 +56,7 @@ export function CarouselPage() {
               <TextContainer>
                 <SubTitle>Auditoría</SubTitle>
                 <Text>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  convallis pellentesque metus id lacinia.
+                Transparencia y confiabilidad: nuestros servicios de auditoría para garantizar la integridad y cumplimiento de tu empresa.
                 </Text>
               </TextContainer>
             </Card>
@@ -71,8 +68,7 @@ export function CarouselPage() {
               <TextContainer>
                 <SubTitle>Contabilidad</SubTitle>
                 <Text>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  convallis pellentesque metus id lacinia.
+                Gestión financiera integral: nuestros servicios de contabilidad para optimizar tus recursos y potenciar el crecimiento de tu negocio.
                 </Text>
               </TextContainer>
             </Card>
@@ -84,8 +80,7 @@ export function CarouselPage() {
               <TextContainer>
                 <SubTitle>Impuestos</SubTitle>
                 <Text>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  convallis pellentesque metus id lacinia.
+                Optimización fiscal: nuestros servicios de impuestos para ahorrar y cumplir con tus obligaciones tributarias.
                 </Text>
               </TextContainer>
             </Card>
@@ -97,8 +92,7 @@ export function CarouselPage() {
               <TextContainer>
                 <SubTitle>Consultoría</SubTitle>
                 <Text>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  convallis pellentesque metus id lacinia.
+                Ideas estratégicas: nuestros servicios de consultoría para impulsar tu negocio y alcanzar el éxito empresarial.
                 </Text>
               </TextContainer>
             </Card>
@@ -115,19 +109,27 @@ const Container = styled.div`
   margin-bottom: 5rem;
   @media (max-width: 760px) {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto ;
+  
+    gap: 1rem;
   }
 `;
 const TextContainer = styled.div`
   margin-top: 1.5rem;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
+  
 `;
 const Title = styled.h1`
   text-align: start;
-  font-size: 3.5rem;
-  @media (max-width:560px) {
-    text-align: center;
+  font-size: 3rem;
+  @media (max-width:64em) {
+    font-size: 2rem;
+  }
+  @media (min-width:570px) {
+    hr{
+      display: none;
+    }
   }
 `;
 const SubTitle = styled.h1`
@@ -135,9 +137,13 @@ const SubTitle = styled.h1`
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
+  
 `;
 const Paragraph = styled.p`
   text-align: start;
+  @media (max-width:560px) {
+    font-size: 1rem;
+  }
 `;
 const Text = styled.p`
   text-align: start;

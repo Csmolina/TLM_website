@@ -18,6 +18,9 @@ footer {
  footer {
 font-size: 1rem;
  }
+ .esconder{
+  display: none;
+ }
 }
 .social {
   &:hover {

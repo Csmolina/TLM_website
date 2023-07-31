@@ -16,8 +16,8 @@ export function SwiperAbout() {
         {" "}
         <SubcontainerSwp className="container col-xxl-8 px-4 py-5">
           <Stitlecontainer>
-            <h1 style={{ fontSize: "3.5rem" }}>
-              {" "}
+            <h1 style={{ fontSize: "3rem" }}>
+          
               "Una Mirada Fresca al Servicio" <hr />
             </h1>
             <p>Nuestra Filosofía</p>
@@ -116,6 +116,13 @@ const Stitlecontainer = styled.div`
  p{
   font-size: 1rem;
  } 
+  }
+  h1{
+    @media (min-width: 65em) {
+   hr{
+    display: none;
+   }
+  }
   }
 
 `;
