@@ -137,6 +137,9 @@ const SubTitle = styled.h1`
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
+  @media (max-width:560px) {
+    font-size: 1.7rem;
+  }
   
 `;
 const Paragraph = styled.p`
