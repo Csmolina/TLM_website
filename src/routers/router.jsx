@@ -11,7 +11,7 @@ export function MyRoutes() {
  
     const location =useLocation();
   return (
-    <AnimatePresence>
+    <AnimatePresence mode="wait">
       <Routes key={location.pathname} location={location}>
         <Route path="/" element={<LandingPage />}  />
         <Route path="/Acerca" element={<Aboutus />} />

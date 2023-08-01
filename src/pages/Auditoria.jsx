@@ -4,9 +4,15 @@ import { ChooseAudit } from "../components/Auditoria/ChooseAudit";
 import { Audit_separated } from "../components/Auditoria/Audit_separated";
 import { Alcance_audit } from "../components/Auditoria/Alcance_audit";
 import { AuditFinal } from "../components/Auditoria/AuditFinal";
+import { motion as m } from "framer-motion";
 export function Auditoria() {
   return (
-    <Container>
+    <m.Container
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.75, ease: "easeOut" }}
+      exit={{ opacity: 0 }}
+    >
       <Auditoria_first />
       <ChooseAudit />
       <Audit_separated
@@ -29,7 +35,7 @@ export function Auditoria() {
         hrcolor="#33004B"
       />
       <AuditFinal />
-    </Container>
+    </m.Container>
   );
 }
 const Container = styled.div``;

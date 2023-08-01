@@ -9,10 +9,10 @@ import { motion as m } from "framer-motion";
 export function LandingPage() {
   return (
     <m.Container
-     
-     initial={{ opacity: 0 }}
+      initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      transition={{ duration: 0.75, ease:"easeOut" }}
+      exit={{opacity:0}}
     >
       <FirstInfo />
       <CarouselPage />
@@ -23,4 +23,13 @@ export function LandingPage() {
   );
 }
 const Container = styled.div`
+  background-image: url("../assets/");
+
+  .container {
+    //margin: 0 !important;
+    width: 100% !important;
+    .col-10 {
+      //background-color: blue;
+    }
+  }
 `;

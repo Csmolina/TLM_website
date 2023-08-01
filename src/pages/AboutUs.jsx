@@ -7,10 +7,10 @@ import { motion as m } from "framer-motion";
 export function Aboutus() {
   return (
     <m.Container
-      initial={{ y:"100%"}}
-      animate={{ y:"0%" }}
-      transition={{ duration: 0.75, ease: "easeOut" }}
-      exit={{opacity:1}}
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ duration: 0.75, ease:"easeOut" }}
+    exit={{opacity:0}}
     >
       <Aboutus_first />
       <Objectives />
