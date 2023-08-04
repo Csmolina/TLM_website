@@ -4,7 +4,7 @@ import AnimationAccounting from "../../assets/73985-colleagues-working-together.
 export function FirstInfo() {
   return (
     <Container>
-      <div className="container col-xxl-8 col-sm-12 px-4 py-5">
+      <div className="container col-xxl-8 col-sm-12  py-5">
         <div className="row flex-xl-row-reverse g-5 py-5">
           <div className=" col-sm-12 col-lg-8">
             <Player autoplay loop src={AnimationAccounting}>

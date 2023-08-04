@@ -20,7 +20,7 @@ export function CarouselPage() {
     <div id="general">
       <div className="container col-xxl-8 px-4 py-5">
         <Container>
-          <Title>Servicios</Title>
+          <Title className="fw-semibold ">Servicios</Title>
           <Paragraph>
           Excelencia en auditoría y contabilidad: tu socio de confianza para el éxito financiero de tu negocio. Servicios profesionales ajustados a tus necesidades.
           </Paragraph>
@@ -110,7 +110,7 @@ const Container = styled.div`
   @media (max-width: 760px) {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto ;
-  
+  margin: 0;
     gap: 1rem;
   }
 `;

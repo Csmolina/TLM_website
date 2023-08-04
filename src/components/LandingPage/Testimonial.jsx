@@ -8,8 +8,8 @@ export function Testimonial() {
           <div class="container py-5">
             <div class="row d-flex justify-content-center">
               <div>
-                <h1 class="titulo" style={{ fontSize: "3em" }}>
-                 ¿Qué dicen nuestro clientes? 
+                <h1 class="titulo fw-semibold " style={{ fontSize: "3rem" }}>
+                 ¿Qué dicen nuestros clientes? 
                 </h1>
               </div>
             </div>

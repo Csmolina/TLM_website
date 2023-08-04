@@ -6,7 +6,7 @@ export function Auditoria_first() {
       {" "}
       <SecondContainer className="container">
         <TextContainer className="col-lg-12 align-items-center">
-          <h1>Auditoría y Aseguramiento</h1>
+          <h1 >Auditoría y Aseguramiento</h1>
           <p className="lead">
           La auditoría se enfoca en la revisión y evaluación de la información y procesos para determinar su exactitud y cumplimiento con normas. Es la evaluación independiente y objetiva para brindar confianza sobre la calidad y cumplimiento de ciertos aspectos. La auditoría y el aseguramiento son importantes para garantizar la integridad y fiabilidad de la información financiera.
           </p>

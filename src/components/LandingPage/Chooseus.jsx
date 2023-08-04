@@ -12,7 +12,7 @@ export function Chooseus() {
     <div className="outer">
       <Container className="container ">
         <ContainerTexto>
-          <Titulo>¿Por qué elegirnos? </Titulo>
+          <Titulo className="fw-semibold ">¿Por qué elegirnos? </Titulo>
           <Carousel id="chooseus">
             {" "}
             <Swiper

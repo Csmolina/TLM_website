@@ -21,3 +21,8 @@
   height: 100%;
   object-fit: cover;
 }
+@media (max-width:64em) {
+  #general{
+    padding: 0;
+  }
+}
